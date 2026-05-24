@@ -12,6 +12,7 @@ A minimal, professional one-page portfolio website for a Software Engineer and C
 ## Features
 
 - Dark, responsive one-page layout
+- English and Mongolian language switcher
 - Sticky navigation with mobile hamburger menu
 - Hero, About, Skills, Projects, Cybersecurity, Contact, and Footer sections
 - Project cards with GitHub, live demo, and security notes
