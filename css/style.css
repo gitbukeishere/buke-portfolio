@@ -442,7 +442,7 @@ h3 {
 }
 
 .projects-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .cyber-grid,
@@ -668,6 +668,7 @@ h3 {
 
   .highlight-grid,
   .skills-grid,
+  .projects-grid,
   .cyber-grid,
   .contact-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
