@@ -445,6 +445,10 @@ h3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.cyber-projects {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .cyber-grid,
 .contact-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -493,6 +497,25 @@ h3 {
 
 .project-card {
   overflow: hidden;
+}
+
+.project-category + .project-category {
+  margin-top: 34px;
+}
+
+.project-category-heading {
+  max-width: 720px;
+  margin-bottom: 16px;
+}
+
+.project-category-heading h3 {
+  margin-bottom: 8px;
+  font-size: 1.28rem;
+}
+
+.project-category-heading p {
+  margin-bottom: 0;
+  color: var(--muted);
 }
 
 .project-card > img {
