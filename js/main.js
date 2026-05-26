@@ -92,9 +92,9 @@ const translations = {
     "skills.promptEngineering": "Prompt Engineering",
     "skills.automationTools": "Automation Tools",
     "projects.eyebrow": "Projects",
-    "projects.title": "Selected live website and cybersecurity projects.",
+    "projects.title": "Selected live website projects.",
     "projects.summary":
-      "Real websites and tools built for ecommerce, business networking, international events, and cybersecurity learning.",
+      "Real websites built for ecommerce, business networking, and international event communication.",
     "projects.login.title": "Secure Login Page",
     "projects.login.desc":
       "A responsive login interface focused on clear validation, accessible form states, and safer authentication UI patterns.",
@@ -128,12 +128,6 @@ const translations = {
     "projects.wsw.stack": "Event Website · Web Development · Content Structure",
     "projects.wsw.note":
       "Security note: event websites need trustworthy content, HTTPS, and careful public-facing forms.",
-    "projects.passcheck.title": "PassCheck Password Security Tool",
-    "projects.passcheck.desc":
-      "Cybersecurity-focused web app for checking password strength, surfacing risk signals, and encouraging safer credential habits.",
-    "projects.passcheck.stack": "Cybersecurity · Web App · Password Strength",
-    "projects.passcheck.note":
-      "Security note: reinforces password hygiene, risk awareness, and safer credential habits.",
     "projects.ctf.title": "CTF Writeup Collection",
     "projects.ctf.desc":
       "A growing set of learning notes from CTF practice, web security labs, and networking fundamentals.",
@@ -257,8 +251,8 @@ const translations = {
     "skills.promptEngineering": "Prompt Engineering",
     "skills.automationTools": "Automation Tools",
     "projects.eyebrow": "Төслүүд",
-    "projects.title": "Сонгосон бодит вебсайт болон cybersecurity төслүүд.",
-    "projects.summary": "Ecommerce, бизнес нетворк, event communication, cybersecurity learning-д зориулсан бодит вебсайт болон tool-ууд.",
+    "projects.title": "Сонгосон бодит вебсайт төслүүд.",
+    "projects.summary": "Ecommerce, бизнес нетворк, олон улсын event communication-д зориулан бүтээсэн бодит вебсайтууд.",
     "projects.login.title": "Аюулгүй нэвтрэх хуудас",
     "projects.login.desc":
       "Form validation, accessibility state, authentication UI-ийн илүү аюулгүй хэв маягт төвлөрсөн responsive login interface.",
@@ -292,12 +286,6 @@ const translations = {
     "projects.wsw.stack": "Event Website · Web Development · Content Structure",
     "projects.wsw.note":
       "Security note: event website-д trustworthy content, HTTPS, public-facing form-ийн аюулгүй байдал чухал.",
-    "projects.passcheck.title": "PassCheck password security tool",
-    "projects.passcheck.desc":
-      "Password strength шалгаж, risk signal харуулж, илүү аюулгүй credential habit дэмжих cybersecurity-focused web app.",
-    "projects.passcheck.stack": "Cybersecurity · Web App · Password Strength",
-    "projects.passcheck.note":
-      "Security note: password hygiene, risk awareness, credential safety-г дэмждэг.",
     "projects.ctf.title": "CTF Writeup цуглуулга",
     "projects.ctf.desc":
       "CTF practice, web security lab, networking fundamentals-аас сурсан зүйлсийн өсөж буй тэмдэглэл.",
@@ -421,10 +409,6 @@ const textBindings = [
   [".project-card:nth-child(3) .project-body > p:nth-of-type(1)", "projects.wsw.desc"],
   [".project-card:nth-child(3) .tech-stack", "projects.wsw.stack"],
   [".project-card:nth-child(3) .security-note", "projects.wsw.note"],
-  [".project-card:nth-child(4) h3", "projects.passcheck.title"],
-  [".project-card:nth-child(4) .project-body > p:nth-of-type(1)", "projects.passcheck.desc"],
-  [".project-card:nth-child(4) .tech-stack", "projects.passcheck.stack"],
-  [".project-card:nth-child(4) .security-note", "projects.passcheck.note"],
   [".project-card .project-links a:first-child", "projects.liveSite"],
   [".project-card .project-links a:nth-child(2)", "projects.github"],
   ["#cybersecurity .section-heading .eyebrow", "cyber.eyebrow"],
