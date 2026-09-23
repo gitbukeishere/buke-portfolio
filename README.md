@@ -1,6 +1,17 @@
-# Buke Portfolio
+# Bujingarav Erdenee Portfolio
 
-A minimal, professional one-page portfolio website for a Software Engineer and Cybersecurity Engineer. The site is built as a static project and is ready to host for free on GitHub Pages.
+A responsive bilingual portfolio for cybersecurity and software engineering work. The site is a static HTML/CSS/JavaScript project designed for GitHub Pages.
+
+## Highlights
+
+- English and Mongolian language switcher with saved preference
+- Full-bleed profile hero and responsive mobile navigation
+- Quantified About, Skills, and Experience sections
+- Curated software and cybersecurity projects
+- Hands-on security practice area with an illustrative lab log
+- Google Cybersecurity Professional Certificate with verification and PDF
+- Honest certification roadmap with completed, in-progress, and planned states
+- Accessible focus states, reduced-motion support, and semantic section navigation
 
 ## Tech Stack
 
@@ -9,90 +20,30 @@ A minimal, professional one-page portfolio website for a Software Engineer and C
 - Vanilla JavaScript
 - GitHub Pages
 
-## Features
-
-- Dark, responsive one-page layout
-- English and Mongolian language switcher
-- Sticky navigation with mobile hamburger menu
-- Hero, About, Skills, Projects, Cybersecurity, Contact, and Footer sections
-- Project cards with GitHub, live demo, and security notes
-- Cybersecurity learning area with honest lab and CTF-focused wording
-- Smooth scrolling and active navigation state
-- Semantic HTML, accessible contrast, keyboard-friendly navigation
-- Lightweight static files with no backend, database, framework, or build tools
-
-## Folder Structure
+## Structure
 
 ```text
-portfolio/
-├── index.html
-├── README.md
-├── assets/
-│   ├── images/
-│   │   ├── profile.jpg
-│   │   ├── project-1.png
-│   │   ├── project-2.png
-│   │   └── project-3.png
-│   ├── icons/
-│   │   ├── github.svg
-│   │   ├── linkedin.svg
-│   │   ├── email.svg
-│   │   └── shield.svg
-│   └── resume/
-│       └── resume.pdf
-├── css/
-│   └── style.css
-└── js/
-    └── main.js
+.
+|-- index.html
+|-- css/
+|   `-- style.css
+|-- js/
+|   `-- main.js
+`-- assets/
+    |-- certs/
+    |-- icons/
+    |-- images/
+    `-- resume/
 ```
 
-## How to Run Locally
+## Run Locally
 
-Open `index.html` directly in a browser.
+The site can be opened directly from `index.html`. For local HTTP testing:
 
-You can also serve it with any static server if you prefer:
-
-```bash
-python -m http.server 8000
+```powershell
+npx serve .
 ```
 
-Then visit `http://localhost:8000`.
+## Deployment
 
-## GitHub Pages Deployment
-
-1. Push this project to your GitHub repository:
-
-   ```bash
-   git remote add origin https://github.com/gitbukeishere/buke-portfolio.git
-   git branch -M main
-   git add .
-   git commit -m "Add portfolio website"
-   git push -u origin main
-   ```
-
-2. Open the repository on GitHub.
-3. Go to `Settings` > `Pages`.
-4. Under `Build and deployment`, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Save the settings.
-
-Your site will be available at:
-
-```text
-https://gitbukeishere.github.io/buke-portfolio/
-```
-
-## Screenshots
-
-Add screenshots here after deployment.
-
-```text
-assets/images/screenshot-home.png
-assets/images/screenshot-projects.png
-```
-
-## License
-
-This project is available for personal portfolio use. Add your preferred license before publishing if needed.
+Publish the repository root from the `main` branch with GitHub Pages. The site does not require a build step.
